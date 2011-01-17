@@ -1,0 +1,40 @@
+# Ementa
+## Visão Geral
+1.    HTTP, Cliente-Servidor
+2.    Padrões Web
+3.    Proposta de metodologia para projetos Web
+4.    Camadas de desenvolvimento client-side
+5.    Ambiente de desenvolvimento
+6.    Metodologia: Orientada a projetos
+
+## HTML
+1.    Contexto: Semântica
+2.    Tags
+3.    Validação
+4.    [Firebug](http://getfirebug.com/)
+5.    Projeto: Receita de Bolo
+      - Tags: [body](http://www.w3schools.com/tags/tag_body.asp), [h..](https://developer.mozilla.org/en/HTML/Element/h1), [hr](https://developer.mozilla.org/en/HTML/Element/hr), [p](https://developer.mozilla.org/en/HTML/Element/p), [ul](https://developer.mozilla.org/en/HTML/Element/ul), [li](https://developer.mozilla.org/en/HTML/Element/li), [ol](https://developer.mozilla.org/en/HTML/Element/ol), [img](https://developer.mozilla.org/en/HTML/Element/img), [a](https://developer.mozilla.org/en/HTML/Element/a)
+6.    Projeto: Tabela de Usuários
+      - Tags: [table](http://www.w3schools.com/tags/tag_table.asp), [thead](http://www.w3schools.com/tags/tag_thead.asp), [tfoot](http://www.w3schools.com/tags/tag_tfoot.asp), [tbody](http://www.w3schools.com/tags/tag_tbody.asp), [th](http://www.w3schools.com/tags/tag_th.asp), [tr](http://www.w3schools.com/tags/tag_tr.asp), [td](http://www.w3schools.com/tags/tag_td.asp), [caption](http://www.w3schools.com/tags/tag_caption.asp)
+7.    Projeto: Formulário de Cadastro
+      - Tags: [form](https://developer.mozilla.org/en/HTML/Element/form), [input](https://developer.mozilla.org/en/HTML/Element/input), [textarea](https://developer.mozilla.org/en/HTML/Element/textarea), [select](https://developer.mozilla.org/en/HTML/Element/select), [option](https://developer.mozilla.org/en/HTML/Element/option), [fieldset](https://developer.mozilla.org/en/HTML/Element/fieldset), [legend](https://developer.mozilla.org/en/HTML/Element/legend), [button](https://developer.mozilla.org/en/HTML/Element/button)
+8.    Projeto: SEO Básico (header, meta, title)
+      - Tags: [head](http://www.w3schools.com/tags/tag_head.asp), [title](http://www.w3schools.com/tags/tag_title.asp), [meta](http://www.w3schools.com/tags/tag_meta.asp), [html](http://www.w3schools.com/tags/tag_html.asp)
+
+## CSS
+1.    Contexto: Forma
+2.    Inclusão do CSS
+      - Atributo [style](https://developer.mozilla.org/en/HTML/Element/style), [link](https://developer.mozilla.org/en/HTML/Element/link), [script](https://developer.mozilla.org/en/HTML/Element/script)
+3.    [Firebug](http://getfirebug.com/)
+4.    Projeto: Formatação do Texto
+      - [font](https://developer.mozilla.org/en/CSS/font), [text-decoration](https://developer.mozilla.org/en/CSS/text-decoration), [text-align](https://developer.mozilla.org/en/CSS/text-align), [line-height](https://developer.mozilla.org/en/CSS/line-height), [list-style](https://developer.mozilla.org/en/CSS/list-style), [:first-letter](https://developer.mozilla.org/en/CSS/%3a%3afirst-letter), [:hover](https://developer.mozilla.org/en/CSS/%3ahover)
+5.    Projeto: Relatório Bonito
+6.    Projeto: Formatação avançada do formulário
+      - Propriedades: [display](https://developer.mozilla.org/en/CSS/display), [border](https://developer.mozilla.org/en/CSS/border), [margin](https://developer.mozilla.org/en/CSS/margin), [padding](https://developer.mozilla.org/en/CSS/padding), [float](https://developer.mozilla.org/en/CSS/float), [background](https://developer.mozilla.org/en/CSS/background), [width](https://developer.mozilla.org/en/CSS/width), [height](https://developer.mozilla.org/en/CSS/height)
+7.    Projeto: Layout de 2 colunas
+      - Tags: [div](https://developer.mozilla.org/en/HTML/Element/div), [span](http://www.w3schools.com/tags/tag_span.asp)
+      - Propriedades: [float](https://developer.mozilla.org/en/CSS/float), [clear](https://developer.mozilla.org/en/CSS/clear), [display](https://developer.mozilla.org/en/CSS/display), [margin](https://developer.mozilla.org/en/CSS/margin), [padding](https://developer.mozilla.org/en/CSS/padding), [border](https://developer.mozilla.org/en/CSS/border)
+8.    Projeto: Layout de 3 colunas
+      - Tags: [div](https://developer.mozilla.org/en/HTML/Element/div), [span](http://www.w3schools.com/tags/tag_span.asp)
+      - Propriedades: [float](https://developer.mozilla.org/en/CSS/float), [clear](https://developer.mozilla.org/en/CSS/clear), [display](https://developer.mozilla.org/en/CSS/display), [margin](https://developer.mozilla.org/en/CSS/margin), [padding](https://developer.mozilla.org/en/CSS/padding), [border](https://developer.mozilla.org/en/CSS/border)
+
