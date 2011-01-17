@@ -1,4 +1,5 @@
 # Ementa
+
 ## Visão Geral
 1.    HTTP, Cliente-Servidor
 2.    Padrões Web
@@ -11,7 +12,7 @@
 1.    Contexto: Semântica
 2.    Tags
 3.    Validação
-4.    [Firebug](http://getfirebug.com/)
+4.    [Firebug](http://getfirebug.com/), [Web Developer Toolbar](https://addons.mozilla.org/pt-br/firefox/addon/60/), [Mesaure It](https://addons.mozilla.org/pt-br/firefox/addon/539/), [Colorzilla](http://www.colorzilla.com/firefox/)
 5.    Projeto: Receita de Bolo
       - Tags: [body](http://www.w3schools.com/tags/tag_body.asp), [h..](https://developer.mozilla.org/en/HTML/Element/h1), [hr](https://developer.mozilla.org/en/HTML/Element/hr), [p](https://developer.mozilla.org/en/HTML/Element/p), [ul](https://developer.mozilla.org/en/HTML/Element/ul), [li](https://developer.mozilla.org/en/HTML/Element/li), [ol](https://developer.mozilla.org/en/HTML/Element/ol), [img](https://developer.mozilla.org/en/HTML/Element/img), [a](https://developer.mozilla.org/en/HTML/Element/a)
 6.    Projeto: Tabela de Usuários
@@ -20,6 +21,11 @@
       - Tags: [form](https://developer.mozilla.org/en/HTML/Element/form), [input](https://developer.mozilla.org/en/HTML/Element/input), [textarea](https://developer.mozilla.org/en/HTML/Element/textarea), [select](https://developer.mozilla.org/en/HTML/Element/select), [option](https://developer.mozilla.org/en/HTML/Element/option), [fieldset](https://developer.mozilla.org/en/HTML/Element/fieldset), [legend](https://developer.mozilla.org/en/HTML/Element/legend), [button](https://developer.mozilla.org/en/HTML/Element/button)
 8.    Projeto: SEO Básico (header, meta, title)
       - Tags: [head](http://www.w3schools.com/tags/tag_head.asp), [title](http://www.w3schools.com/tags/tag_title.asp), [meta](http://www.w3schools.com/tags/tag_meta.asp), [html](http://www.w3schools.com/tags/tag_html.asp)
+
+### Leituras adicionais
+1. [Acessibilidade não é altruísmo](http://brunotorres.net/acessibilidade-nao-e-altruismo)
+2. [Charsets e encodings](http://www.tableless.com.br/charsets-e-encodes-tabelas-de-caracteres)
+3. [Camadas client-side](http://www.tableless.com.br/camadas-de-desenvolvimento-client-side)
 
 ## CSS
 1.    Contexto: Forma
