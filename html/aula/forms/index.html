@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Formulários 1</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Faça login</legend>
+        <label for="campo-login">Login</label>
+        <input type="text" name="login" id="campo-login" />
+
+        <label for="campo-senha">Senha</label>
+        <input type="password" name="senha" id="campo-senha" />
+
+        <label for="campo-logado">Mantenha-me logado por 5 dias</label>
+        <input type="checkbox" name="logado" id="campo-logado" value="true" checked="checked" />
+
+        <input type="submit" value="Entrar" />
+      </fieldset>
+    </form>
+
+    <hr/>
+
+    <form>
+      <fieldset>
+        <legend>Informe seu sexo</legend>
+        <input type="radio" name="sexo" id="campo-masculino" value="masc" checked="checked" />
+        <label for="campo-masculino">Masculino</label>
+        <input type="radio" name="sexo" id="campo-feminino" value="fem" />
+        <label for="campo-feminino">Feminino</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
