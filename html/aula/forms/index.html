@@ -18,6 +18,8 @@
         <input type="checkbox" name="logado" id="campo-logado" value="true" checked="checked" />
 
         <input type="submit" value="Entrar" />
+        <!-- limpa dados do formulário -->
+        <input type="reset" value="Limpar" />
       </fieldset>
     </form>
 
@@ -30,6 +32,13 @@
         <label for="campo-masculino">Masculino</label>
         <input type="radio" name="sexo" id="campo-feminino" value="fem" />
         <label for="campo-feminino">Feminino</label>
+
+        <!-- uma outra forma de criar opções exclusivas -->
+        <label for="campo-sexo2">Sexo</label>
+        <select id="campo-sexo2" name="sexo2">
+          <option value="masc">Masculino</option>
+          <option value="fem">Feminino</option>
+        </select>
       </fieldset>
     </form>
   </body>

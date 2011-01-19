@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="campo-nome">None</label>
+        <input type="text" name="nome" id="campo-nome" />
+
+        <label for="campo-sexo">Sexo</label>
+        <select id="campo-sexo" name="sexo">
+          <option value="masc">Masculino</option>
+          <option value="fem">Feminino</option>
+        </select>
+
+        <fieldset>
+          <legend>Bens</legend>
+          <input type="checkbox" id="campo-carro" name="bens" value="carro" />
+          <label for="campo-carro">Carro</label>
+          <input type="checkbox" id="campo-casa" name="bens" value="casa" />
+          <label for="campo-casa">Casa</label>
+        </fieldset>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados de contato</legend>
+        <label for="campo-endereco">Endereço</label>
+        <input type="text" id="campo-endereco" name="endereco" />
+
+        <fieldset>
+          <legend>Tipo de moradia</legend>
+            <label for="campo-moradia-casa">Casa</label>
+            <input type="radio" id="campo-moradia-casa" value="casa" name="moradia" />
+            <label for="campo-moradia-predio">Prédio</label>
+            <input type="radio" value="predio" id="campo-moradia-predio" name="moradia" />
+        </fieldset>
+
+        <label for="campo-email">E-mail</label>
+        <input type="text" name="email" id="campo-email" />
+        <label for="campo-senha">Senha</label>
+        <input type="password" name="senha" id="campo-senha" />
+
+        <label for="campo-mensagem">Mensagem</label>
+        <textarea id="campo-mensagem" name="mensagem" rows="20" cols="30"></textarea>
+
+        <input type="submit" value="Cadastrar" />
+        <input type="reset" value="Limpar campos" />
+      </fieldset>
+    </form>
+  </body>
+</html>
