@@ -1,36 +1,93 @@
-(logotipo da empresa)
-Desenvolvimento Web Ltda.
-    * Página inicial
-    * Produtos
-    * Serviços
-    * Sobre a empresa
-    * Entre em contato
-          o Publicidade
-          o Marketing
-          o Vendas
-          o Diretoria
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Desenvolvimento Web Ltda.</title>
+  </head>
+  <body>
 
-Propaganda
-    * Rapidão cometa - Entrega rápida
-    * Cocacola - viva esse clima
-    * Aquarius fresh sabor limão - o gosto do verão
+    
+    <h1>
+      <img src="logotipo.png" alt="Desesnvolvimento Web Ltda." />
+      Desenvolvimento Web Ltda.
+    </h1>
+    <ul>
+      <li><a href="#" title="Ir para a página inicial">Página inicial</a></li>
+      <li>Produtos</li>
+      <li>Serviços</li>
+      <li>Sobre a empresa</li>
+      <li>
+        <a href="#" title="Fale conosco">Entre em contato</a>
+        <ul>
+          <li>Publicidade</li>
+          <li>Marketing</li>
+          <li>Vendas</li>
+          <li>Diretoria</li>
+        </ul>
+      </li>
+    </ul>
 
-Bem vindo
-Bem vindo a nossa página de exemplo! O objetivo deste exercício é aprender a utilizar o HTML da maneira mais semântica possível, ou seja, utilizando as tags corretas nos lugares corretos.
+    <hr/>
 
-Faça parte do nosso time
-  Como fazer:
-  1. Faça seu cadastro
-  2. Receba as vagas abertas por e-mail
-  3. Envie o seu currículo
+    <h3>Propaganda</h3>
+    <ul>
+      <li>Rapidão cometa - Entrega rápida</li>
+      <li>Cocacola - viva esse clima</li>
+      <li>Aquarius fresh sabor limão - o gosto do verão</li>
+    </ul>
+    
+    <hr/>
 
-Dados pessoais
-Nome: _____________
-E-mail: ____________
-Data de nascimento: ______________
-Senha: ______________
-Sexo:
- [ ] masculino  [ ] feminino
+    <h2>Bem vindo</h2>
+    <p>
+      Bem vindo a nossa página de exemplo! O objetivo deste exercício é aprender a utilizar o HTML da maneira mais semântica possível, ou seja, utilizando as tags corretas nos lugares corretos.
+    </p>
 
-Todos os direitos reservados © 2010
-Rua do Apolo, 181, Bairro do Recife
+    <hr/>
+
+    <h2>Faça parte do nosso time, <em>como fazer:</em></h2>
+    
+    <ol>
+      <li>Faça seu cadastro</li>
+      <li>Receba as vagas abertas por e-mail</li>
+      <li>Envie o seu currículo</li>
+    </ol>
+
+    <form action="#">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <div>
+          <label for="campo-nome">Nome</label>
+          <input type="text" id="campo-nome" name="nome" />
+        </div>
+
+        <label for="campo-email">E-mail</label>
+        <input type="text" id="campo-email" name="email" />
+
+        <label for="campo-nascimento">Data de nascimento</label>
+        <input type="text" id="campo-nascimento" name="nascimento" />
+
+        <label for="campo-senha">Senha</label>
+        <input type="password" id="campo-senha" name="senha" />
+
+        <fieldset>
+          <legend>
+            Sexo
+          </legend>
+
+          <input type="radio" name="sexo" id="campo-sexo-masc" value="masc" />
+          <label for="campo-sexo-masc">Masculino</label>
+          <input type="radio" name="sexo" id="campo-sexo-fem" value="fem" />
+          <label for="campo-sexo-fem">Feminino</label>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar" />
+      </fieldset>
+    </form>
+
+    <hr/>
+
+    <p>Todos os direitos reservados © 2010</p>
+    <address>Rua do Apolo, 181, Bairro do Recife</address>
+  </body>
+</html>
