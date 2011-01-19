@@ -34,7 +34,8 @@
 3.    [Firebug](http://getfirebug.com/)
 4.    Projeto: Formatação do Texto
       - [font](https://developer.mozilla.org/en/CSS/font), [text-decoration](https://developer.mozilla.org/en/CSS/text-decoration), [text-align](https://developer.mozilla.org/en/CSS/text-align), [line-height](https://developer.mozilla.org/en/CSS/line-height), [list-style](https://developer.mozilla.org/en/CSS/list-style), [:first-letter](https://developer.mozilla.org/en/CSS/%3a%3afirst-letter), [:hover](https://developer.mozilla.org/en/CSS/%3ahover)
-5.    Projeto: Relatório Bonito
+5.    Projeto: Seletores do CSS
+      - Seletor de filho imediato, seletores tradicionais, classes e IDs
 6.    Projeto: Formatação avançada do formulário
       - Propriedades: [display](https://developer.mozilla.org/en/CSS/display), [border](https://developer.mozilla.org/en/CSS/border), [margin](https://developer.mozilla.org/en/CSS/margin), [padding](https://developer.mozilla.org/en/CSS/padding), [float](https://developer.mozilla.org/en/CSS/float), [background](https://developer.mozilla.org/en/CSS/background), [width](https://developer.mozilla.org/en/CSS/width), [height](https://developer.mozilla.org/en/CSS/height)
 7.    Projeto: Layout de 2 colunas
