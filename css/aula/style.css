@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+}
+p {
+  color: red;
+}
+
+/*
+ * Precedência
+  p.destaque {
+    color: blue;
+  }
+*/
+
+h1.destaque em, 
+h1.destaque strong {
+  color: purple;
+  font-family: Arial;
+}
+
+
