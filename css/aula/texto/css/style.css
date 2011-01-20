@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+a {
+  font-weight: bold;
+  font-style: oblique;
+  /* fontes podem ser em px, % ou em */
+  font-size: 1em;
+  font-variant: small-caps;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  line-height: 200%;
+}
+
+#descricao {
+  /* text-align: right; */
+  /* text-align: center; */
+  text-align: justify;
+}
+
+h2 {
+  /* text-decoration: line-through; */
+  /* text-decoration: blink; */
+  /* text-decoration: blink underline overline line-through; */
+  text-decoration: underline;
+}
+
+p:first-letter {
+  font-size: 1.9em;
+  color: red;
+}
+
+#lista {
+  /* aceita decimal, upper-roman, disc, square... */
+  /*list-style-type: decimal;*/
+  /* subindo um diretório para pegar a imagem */
+  list-style-image: url("../imagens/play.png");
+  list-style-position: outside;
+}
+
+#lista ul {
+  /* Sobreescrevendo de maneira específica (Sem short hand)*/
+  list-style-image: none;
+}
+

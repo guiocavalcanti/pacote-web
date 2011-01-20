@@ -23,6 +23,6 @@ h1.destaque strong {
   font-family: Arial;
 }
 
-ul.elementos  li  a {
+ul.elementos > li > a {
   color: blue;
 }
