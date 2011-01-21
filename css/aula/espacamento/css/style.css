@@ -1,0 +1,42 @@
+body {
+  /* repeat-x repeat-y no-repeat */
+  background: #AECEBC url("http://colourlovers.com.s3.amazonaws.com/images/patterns/1253/1253089.png") no-repeat;
+
+  /* podemos utilizar palavras-chave left right center bottom (y, x) */
+  background-position: center bottom;
+  /*
+   * background-image
+   * background-color
+   * background-repeat
+   * background-position: xy
+   * */
+}
+
+.primeira {
+  border: 1px solid blue;
+  /* padding: 30px; */
+  /* padding: 30px 20px 10px 0; */
+  padding: 20px;
+  /*
+  padding-top:
+  padding-left:
+  padding-bottom:
+  padding-right:
+  */
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  /* overflow: hidden; */
+  overflow: scroll;
+}
+
+.segunda {
+  /* border: 1px solid red; */
+  /* solid, dotted, dashed */ 
+  border-style: solid;
+  border-color: red;
+  border-right-width: 1px;
+
+  margin: 40px;
+  width: 400px;
+}

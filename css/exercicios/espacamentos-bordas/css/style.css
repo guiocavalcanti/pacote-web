@@ -1,0 +1,20 @@
+/**
+ * Cores utilizadas:
+   * Cor de pele: #EBE9DC
+   * Verde mais escuro: #98CD3F
+   * Verde mais claro: #ABE547
+   * Bordas: #D4D0C1
+   * Legend: #A8A599
+**/
+
+/* Para resolver bug do float */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
