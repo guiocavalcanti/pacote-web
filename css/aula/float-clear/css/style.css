@@ -1,0 +1,51 @@
+/* 
+ * Internet explorer 6
+ *body {
+  text-align: center;
+}
+*/
+
+div {
+  border: 1px solid black;
+}
+
+#geral {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#primeira {
+  /* text-align: left; */
+  float: left;
+  width: 200px;
+  background-color: red;
+}
+
+#conteudo {
+  width: 390px;
+  background-color: blue;
+  float: left;
+}
+
+#segunda {
+  float: left;
+  width: 200px;
+  background-color: orange;
+}
+
+#rodape {
+  background-color: green;
+  clear: both;
+}
+
+/* Para resolver bug do float */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
