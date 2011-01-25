@@ -1,3 +1,165 @@
+body {
+  font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+  background-color: #9FC5E9;
+}
+
+a {
+  color: #5798C5;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+
+#geral {
+  width: 770px;
+  margin: 40px auto;
+  background-color: #D5D5D5;
+}
+
+#cabecalho {
+  border-top: 10px solid #B9D3A4;
+  background-color: #CCCCCC;
+}
+
+#cabecalho h1.logotipo {
+  width: 387px;
+  height: 54px;
+
+  background: url("logo.gif") no-repeat;
+  margin: 25px;
+}
+
+#cabecalho ul.navegacao {
+  border-top: 1px solid #AFAFAF;
+}
+
+
+#cabecalho ul.navegacao li {
+  float: left;
+}
+
+#cabecalho ul.navegacao li a {
+  padding: 15px;
+  display: block;
+  font-size: .9em;
+  text-transform: lowercase;
+}
+
+#chamada {
+  background: #5794C1 url("muleke.jpg") no-repeat left;
+  height: 229px;
+  padding: 15px 15px 15px 415px;
+}
+
+#chamada h2,
+#chamada p {
+  color: white;
+}
+
+#chamada p { 
+  font-size: .8em;
+  line-height: 160%;
+}
+
+#chamada h2 { margin-bottom: 10px; }
+
+#conteudo {
+  float: left;
+  padding: 15px;
+  width: 460px;
+}
+
+#conteudo {
+  line-height: 180%;
+  color: #8B8E92;
+  font-size: .9em;
+}
+
+#acoes {
+  float: left;
+  width: 250px;
+  padding: 15px;
+  background-color: #BABABA;
+}
+
+#acoes legend,
+#acoes h3 { 
+  color: #2C738F;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#acoes ul a {
+  color: #47494B;
+  padding: 5px 0;
+  display: block;
+}
+
+#acoes hr {
+  border: 2px solid white;
+  margin: 15px 0;
+}
+
+#acoes input[type=text],
+#acoes input[type=password] {
+  border: none;
+  width: 240px;
+  padding: 5px;
+}
+
+#acoes input[type=submit] {
+  margin: 10px 10px 10px 195px;
+}
+
+#acoes label {
+  margin: 5px 0;
+  display: block;
+  text-transform: lowercase;
+}
+
+#busca label {
+  display: none;
+}
+
+#contato {
+  width: 750px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+#contato h3 {
+  float: left;
+  background: url("logo-rodape.gif") no-repeat;
+  width: 191px;
+  height: 27px;
+}
+
+#contato address {
+  float: right;
+  color: #878787;
+}
+
+#contato .telefone { 
+  text-transform: uppercase;
+  font-size: 1.3em;
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#contato .endereco {
+  font-style: normal;
+}
+
+.replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
 /* Para resolver bug do float */
 .clearfix:after {
 	visibility: hidden;
@@ -6,7 +168,8 @@
 	content: " ";
 	clear: both;
 	height: 0;
-	}
+}
+
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
