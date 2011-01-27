@@ -31,8 +31,14 @@ jQuery(function(){
     */
 
     $("#acao").click(function(){
-      var clone = $("p").clone();
+      var clone = $("p:last").clone();
+      $(this).after(clone);
       $(this).after(clone);
       clone.css("backgroundColor", "blue");
     });
+
+    $("p").live("click", function(){
+      alert("Detectei click");
+    })
+
 });
