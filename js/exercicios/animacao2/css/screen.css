@@ -1,0 +1,8 @@
+body { background-color: #EBF5FF; }
+
+.button-color-1 {
+  position: relative;
+  width: 80px;
+  height: 70px;
+  background: url("../images/icons.png") no-repeat -82px 0;
+}
